@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <style>
+    .box{
+        height: 200px;
+    }
+</style>
+</head>
+<body>
+    
+<!-- Navbar -->
+<div class="navbar-fixed">
+    <nav class="nav-wrapper indigo">
+      <div class="container">
+        <a href="#" class="brand-logo">Site Title</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-links">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="" class="btn white indigo-text">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <ul class="sidenav" id="mobile-links">
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Contact</a></li>
+  </ul>
+
+
+    <div class="container">
+        <h1>Hey Rahul</h1>
+    </div>
+<!-- HIde elements -->
+    <div class="cotainer">
+        <h4 class="hide">Hide me on all screen sizes</h4>
+        <h4 class="hide-on-small-only">Hide me on small screen sizes</h4>
+        <h4 class="hide-on-med-only">Hide me on medium screen sizes</h4>
+        <h4 class="hide-on-large-only">Hide me on big screen sizes</h4>
+        <h4 class="hide-on-med-and-down">Hide me on small & medium screen sizes</h4>
+        <h4 class="hide-on-med-and-up">Hide me on medium & large screen sizes</h4>
+    </div>
+
+<!-- Colours -->
+<div class="container">
+    <h5 class="blue darken-1">Be yourself</h5>
+    <h4 class="orange lighten-1">Never ever give up</h4>
+    <h3 class="purple darken-2 white-text">Believe in yourself</h3>
+    <h2 class="teal darken-2 yellow-text text-lighten-3">Be renlentless</h2>
+    <h1 class="yellow lighten-3 purple-text text-darken-3ddd">Do your best every single day</h1>
+</div>
+
+<!--Align -->
+<div class="container">
+    <h5 class="center-align">center align</h5>
+    <h5 class="left-align">Left align</h5>
+    <h5 class="right-align">Right align</h5>
+    <div class="container grey lighten-1 box valign-wrapper">
+        <h5>Inside box</h5>
+    </div>
+</div>
+
+<div class="container">
+    <p class="truncate">Hello I am Rahul from india, I am full stack MERN developer and the founder & CEO of ZOVO </p>
+</div>
+
+<!-- Buttons -->
+<div class="container">
+    <a href="Button" class="btn">Button</a>
+    <a href="" class="btn-small">Small button</a>
+    <a href="" class="btn-large">Large Button</a>
+    <a href="" class="btn disabled">Diabled button</a>
+    <a href="" class="btn indigo waves-effect waves-light">Indigo button</a>
+    <a href="" class="btn-floating pink pulse">Floating</a>
+</div>
+
+<!-- icons -->
+<div class="container">
+    <h2>Icons</h2>
+    <i class="material-icons red-text">error</i>
+    <i class="material-icons yellow-text text-darken-2">warning</i>
+    <i class="material-icons blue-text">folder</i>
+    <a href="#" class="btn indigo">
+        <span>Send</span>
+        <i class="material-icons right waves-effect waves-light">send</i>
+    </a>
+
+    <a href="" class="btn-floating blue pulse">
+        <i href="#" class="material-icons">add</i>
+    </a>
+</div>
+
+<!-- Responsive grids -->
+<div class="container">
+    <div class="row">
+        <div class="col s3 yellow">Content</div>
+        <div class="col s3 red">Content</div>
+        <div class="col s3 green">Content</div>
+        <div class="col s3 blue">Content</div>
+
+    </div>
+
+    <div class="row">
+        <div class="col s6 m3 yellow">Content</div>
+        <div class="col s6 m3 red">Content</div>
+        <div class="col s6 m3 green">Content</div>
+        <div class="col s6 m3 blue">Content</div>
+    </div>
+
+    <div class="row">
+        <div class="col s12 m6 l4 x12 yellow">Content</div>
+        <div class="col s12 m6 l4 x12 red">Content</div>
+        <div class="col s12 m6 l4 x12 green">Content</div>
+    </div>
+</div>
+
+
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
+
+</body>
+</html>
